@@ -28,7 +28,7 @@ const Modal: React.FC<ModalProps> = ({
       return;
     }
     onClose();
-  }, [disabled, onSubmit]);
+  }, [disabled, onSubmit, onClose]);
 
   const handleSubmit = () => {
     onSubmit();
